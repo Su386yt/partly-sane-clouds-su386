@@ -117,7 +117,7 @@ Response
 }
 ```
 ``itemId`` - the skyblock id,
-``rarity`` - the skyblock rarity
+``rarity`` - the skyblock rarity (This is not the simply just the Hypixel API's SkyBlock items rarity. Items that do not have a rarity are listed as common)
 ``name`` - the ingame default name
 ``npcSell`` - the price to sell directly to a merchant NPC
 ``bazaarBuy`` - the bazaar instant buy price (sell order)

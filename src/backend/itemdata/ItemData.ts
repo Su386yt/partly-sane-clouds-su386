@@ -49,7 +49,7 @@ export async function getSkyblockItemEndpointResponse(): Promise<{ success: bool
     const item = skyblockItem[i]
     data.products.push({
       itemId: item.itemId,
-      rarity: item.rarity,
+      rarity: item.rarity ?? "COMMON",
       name: item.name,
       npcSell: item.npcSellPrice ?? 0,
       bazaarBuy: item.bazaarData?.buyPrice ?? 0,
